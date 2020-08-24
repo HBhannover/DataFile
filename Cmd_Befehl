@@ -1,0 +1,31 @@
+//Generell
+javac -cp "C:\selenium-2.42.2\selenium-java-2.42.2.jar;selenium-server-standalone-2.42.2.j‌​ar" Test.java
+java -cp "C:\selenium-2.42.2\selenium-java-2.42.2.jar;.;selenium-server-standalone-2.42.2‌​.jar" Test
+
+//Gute Anwendung:
+javac -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;selenium-server-standalone-3.141.59.j‌​ar" *.java
+javac -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar"  *.java
+javac -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-server-standalone-3.141.59.jar" *.java
+
+//Tom lai: 
+C:\Users\hbn\DemoKeywordDriver\Henrik_MA2020\src\main\java\makeInput>javac -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;selenium-server-standalone-3.141.59.jar" *.java
+C:\Users\hbn\DemoKeywordDriver\Henrik_MA2020\src\main\java>java -cp ".;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\libs\*;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-server-standalone-3.141.59.jar" makeInput.ExcecutionEngine
+hoac la:
+java -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;.;selenium-server-standalone-3.141.59.jar" ExcecutionEngine
+
+//Tom lai2:
+C:\Users\hbn\DemoKeywordDriver\Henrik_MA2020\src\main\java\makeInput>javac -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;selenium-server-standalone-3.141.59.jar;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\guavaHTTPHeaders\*" *.java
+cd.. ENTER
+C:\Users\hbn\DemoKeywordDriver\Henrik_MA2020\src\main\java>java -cp ".;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\libs\*;C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-server-standalone-3.141.59.jar" makeInput.ExcecutionEngine 200
+
+
+chcp 1252 --> für Encoding WebElements
+chcp 65001 ---> für Encoding Cmd-Textdarstellung (UTF-8)
+---------------------------------------------------------------------
+//Probe:
+
+javac -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar" *.java
+
+java -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-server-standalone-3.141.59.jar; C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar;libs\*" *.java
+
+java -cp "C:\Users\hbn\Desktop\Bach\PPI_Welt\Henrik_MA\selenium-java-2.48.2\selenium-2.48.2\selenium-java-2.48.2.jar" *
